@@ -1,0 +1,61 @@
+*{
+    background-color: black;
+}
+.container{
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 20px;
+}
+.box{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+input[type="text"]{
+    color: white;
+    border: 1px solid white;
+    width: 20rem;
+    padding: 10px;
+}
+#btn{
+    color: black;
+    background-color: white;
+    width: 28rem;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+table {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 90%;
+}
+thead tr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid;
+}
+tbody tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+.flex button {
+    width: 120px;
+}
